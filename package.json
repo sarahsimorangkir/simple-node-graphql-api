@@ -1,0 +1,25 @@
+{
+  "name": "simple-node-graphql-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahsimorangkir/simple-node-graphql-api.git"
+  },
+  "author": "Sarah Omega",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarahsimorangkir/simple-node-graphql-api/issues"
+  },
+  "homepage": "https://github.com/sarahsimorangkir/simple-node-graphql-api#readme",
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "colors": "^1.4.0",
+    "graphql": "^16.8.1",
+    "nodemon": "^3.1.0"
+  }
+}
