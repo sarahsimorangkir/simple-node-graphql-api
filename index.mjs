@@ -4,7 +4,7 @@ import {typeDefs} from './schema.mjs';
 import {resolvers} from './resolvers.mjs';
 
 const API_PORT = 4000;
-const server = ApolloServer({
+const server = new ApolloServer({
     typeDefs,
     resolvers
 });

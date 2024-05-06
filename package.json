@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start" : "nodemon ./index.mjs"
   },
   "repository": {
     "type": "git",
@@ -12,6 +12,8 @@
   },
   "author": "Sarah Omega",
   "license": "ISC",
+
+ 
   "bugs": {
     "url": "https://github.com/sarahsimorangkir/simple-node-graphql-api/issues"
   },
